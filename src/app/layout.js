@@ -1,7 +1,6 @@
-// src/app/layout.js
 
 import React from 'react';
-import './globals.css'; // Importa tus estilos globales
+import './globals.css'; 
 import Link from 'next/link';
 
 export const metadata = {
@@ -24,16 +23,16 @@ function RootLayout({ children }) {
             <ul>
             <li><Link href="/">Home</Link></li>
               <li><Link href="/sales">Ventas</Link></li>
-              <li><Link href='/products/${id}'>Productos</Link></li>
-              <li><Link href="/customer/${id}">Clientes</Link></li>
+              <li><Link href='/sales/items'>Productos</Link></li>
+              <li><Link href="/sales/customer">Clientes</Link></li>
             </ul>
           </nav>
         </header>
         <main>
-          {children} {/* Aquí se renderizarán las páginas */}
+          {children} 
         </main>
         <footer>
-          <p>&copy; 2024 Tu Empresa</p>
+          <p>&copy; </p>
         </footer>
       </body>
     </html>

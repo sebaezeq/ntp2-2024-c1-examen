@@ -1,0 +1,62 @@
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+li {
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    margin: 10px 0; 
+    padding: 15px;
+    transition: box-shadow 0.3s; 
+}
+
+li:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.customer-info {
+    text-align: left; 
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0; 
+    color: #333; 
+}
+
+h3, h5 {
+    margin: 5px 0; 
+    color: #555; 
+}
+
+p {
+    margin: 10px 0; 
+    color: #777; 
+}
+
+.pagination {
+    margin-top: 20px; 
+    text-align: center; 
+}
+
+.pagination button {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    margin: 0 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.pagination button:hover {
+    background-color: #0056b3; 
+}
+
+.pagination button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed; 
+}

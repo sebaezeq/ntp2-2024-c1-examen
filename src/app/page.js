@@ -2,7 +2,7 @@
 
 
 import React from 'react';
-import './globals.css'; // Importa tus estilos globales
+import './globals.css'; 
 import Link from 'next/link';
 
 
@@ -12,9 +12,10 @@ const SalesPage = () => {
       <h1>Sistemas de Ventas</h1>
       <nav>
         <ul>
-        <li><Link href="/sales">Ventas</Link></li>
-              <li><Link href='/products/${id}'>Productos</Link></li>
-              <li><Link href="/customer/${id}">Clientes</Link></li>
+        <li><Link href="/">Home</Link></li>
+              <li><Link href="/sales">Ventas</Link></li>
+              <li><Link href='/sales/items'>Productos</Link></li>
+              <li><Link href="/sales/customer">Clientes</Link></li>
         </ul>
       </nav>
     </div>
